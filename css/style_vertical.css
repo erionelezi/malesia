@@ -1,0 +1,92 @@
+﻿*{
+
+	margin: 0;
+	padding: 0;
+}
+body{
+     list-style-type:none; 
+}
+
+
+.section{
+    margin:0px;
+    width:100%;
+    height:100%;
+    float:left;
+    min-height: 100%;
+    list-style-type:none;
+
+
+}
+.section h2{
+    margin:20px 0px 10px 0px;
+    text-align:justify;
+    
+}
+.section p{
+ 
+    width:500px;
+    padding:2px;
+    text-align:justify;
+}
+.inicio{
+
+}
+.historia{
+	background: #fff url(../images/intro2.jpg) no-repeat center top;
+	height: 2328px;
+	
+}
+
+.gmaps{
+	background-position: top;
+	height: 1644px;
+	background: #fff url(../images/localizacao.jpg) no-repeat center top;
+}
+
+.360{
+
+height:320px;
+	
+}
+
+.sandwiches{
+
+    background:#fff url(../images/intro5.html) no-repeat center top;
+}
+
+
+.saladas{
+
+    background:#fff url(../images/intros.html) no-repeat center top;
+}
+
+.sobremesas{
+
+    background:#fff url(../images/introsz.html) no-repeat center top;
+}
+
+
+.section ul{
+      padding:30px;
+      width:112px;
+      height: 101px;
+      display: inline;
+}
+.inicio ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+.inicio ul li a{
+   display: inline;
+    color:#f0f0f0;
+}
+.inicioul li a:hover{
+    position:relative;
+    float:left;
+    padding:0;
+    margin:0;
+ display: inline;
+}

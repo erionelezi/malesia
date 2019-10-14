@@ -1,0 +1,139 @@
+﻿
+<!DOCTYPE html>
+<html>
+	<head>		
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49130012-1', 'monsaraz360.pt');
+  ga('send', 'pageview');
+
+</script>
+
+
+  	<script type="text/javascript">
+	var mob = ['iPhone'];
+	for(var i=0; i<mob.length; i++){
+		if(navigator.userAgent.indexOf(mob[i]) != -1){
+			window.location = "http://www.fshp.al/malesia/mobile/";
+		}
+	}
+	</script>
+ 
+	<script type="text/javascript">
+	var mob = ['iPad'];
+	for(var i=0; i<mob.length; i++){
+		if(navigator.userAgent.indexOf(mob[i]) != -1){
+			window.location = "http://www.fshp.al/malesia/ipad.html";
+		}
+	}
+	</script>
+
+<script type="text/javascript"> // <![CDATA[
+	if ( (navigator.userAgent.indexOf('Android') != -1) ) {
+		document.location = "http://www.fshp.al/malesia/mobile/";
+	} // ]]>
+</script>
+
+
+
+
+<meta charset="utf-8" />
+<title>Malësia e madhe 360º | Malësia e madhe 360º</title>
+<meta name="description" content="Guidë 360 në malësinë e madhe .Malësia e madhe 360º" />
+<meta name="keywords" content="Guidë 360 në malësinë e madhe .Malësia e madhe 360º" />
+<meta name="author" content="© 360º Panoramic Photography,UI Design/Development, Concept by BeeTech ALbania" />
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=0.7, minimum-scale=0.4, maximum-scale=0.9, user-scalable=yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta http-equiv="refresh" content="223; URL=tour.html"/>
+<link href="www.malesiaemadhe360.al" />
+<meta property='og:title' content='Malesia e madhe 360'/>
+<meta property='og:description' content='Malësia e madhe 360º | Malësia e madhe 360º '/>
+<meta property='og:url' content='www.malesiaemadhe360.al'/>
+<meta property='og:site_name' content='Malësia e madhe 360º '/>
+<meta property='og:image' content='www.malesiaemadhe360.al/thumb.jpg'/>
+<link rel="stylesheet" href="framework.css"/>
+<link rel="stylesheet" href="assets/style.css"/>
+<script type="text/javascript" src="assets/jquery-1.5.1.js"></script>
+<!-- <script type="text/javascript" src="jquery.videoBG.js"></script> -->
+<!-- <script type="text/javascript" src="assets/script.js"></script>-->
+<script type="text/javascript" charset="utf-8" src="lxtitle_edgePreload.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.spacetailor.video.js"></script> 
+
+<style> 
+.creditos { font-family: 'Open Sans', sans-serif; text-align:left; font-weight:regular; font-style: normal; font-size:9px; color: #7a7a7a;}
+.edgeLoad-lisboa360 { visibility:hidden; }
+
+body{
+	margin:0;
+	padding:0;
+	border:0;
+	overflow:hidden;
+	background-color: #000000
+}
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#000; 
+    z-index:999;
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; 
+    top:50%; 
+
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; 
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+<div id="preloader">
+    <div id="status"></div>
+</div>
+<!--<div style="position:fixed;left:20px; width: 419px; height: 25px; z-index: 1; bottom: 20px;" id="creditos">
+<h1 class="creditos"><strong>Video:</strong> João Frutuoso</strong></h1></div> -->
+
+<!--<div id="skip" style="position:fixed; bottom: 70px; left:50%; margin-left:-60px;width:65px; height: 97px; z-index: 9; " ><a href="tour.html" target="_self">
+	<img src="skip.png" height="141" width="133"></a></div>-->
+	
+	<div id="skip" style="position:fixed; bottom: 70px; right:80px; bottom:170px;width:65px; height: 97px; z-index: 9; " ><a href="tour.html" target="_self">
+	<img src="skip.png" height="141" width="133"></a></div>
+
+<div id="Stage" class="lisboa360" style="position: absolute; left:50%; margin-left:-480px;width:947; height: 85px; z-index: 9999;  top: 150px;" ></div> 
+<div id="player"></div>	
+
+<div style="position: absolute; width: 100%; bottom:0px;background:#000000;height: 110px; z-index:99999999" id="barrabaixo"></div>
+<div style="position: absolute; width: 100%; top:0px;background:#000000;height: 110px; z-index:99999999" id="barracima"></div>
+
+<script type="text/javascript">
+    //<![CDATA[
+        $(window).load(function() { 
+            $('#status').fadeOut(); 
+            $('#preloader').delay(2500).fadeOut('slow'); 
+        })
+    //]]>
+</script>
+
+		</body>
+</html>

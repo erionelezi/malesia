@@ -1,0 +1,35 @@
+﻿
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+/*
+body {
+    font-family: 'Open Sans', Calibri, Arial, sans-serif;
+    color: #ffffff;
+    font-size:9pt;
+    font-weight: normal;
+	font-style: normal;
+	
+    
+
+}*/
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	color: #000;
+}
+
+
+
